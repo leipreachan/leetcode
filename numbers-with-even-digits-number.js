@@ -2,10 +2,10 @@
  * @param {number[]} nums
  * @return {number}
  */
-const hasEvenNumberDigits = function (number) {
+const hasEvenNumberDigits = function (nums) {
     let result = 0;
-    if ((number > 9 &&
-        number <= 99) || (number > 999 && number <= 9999) || number === 100000) {
+    if ((nums > 9 &&
+        nums <= 99) || (nums > 999 && nums <= 9999) || nums === 100000) {
         result = 1;
     }
     return result;
